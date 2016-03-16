@@ -5,70 +5,32 @@
     <title>d-bl : Diagrams for Bobbin Lace</title>
     <style>
         body { max-width: 45em;  padding: 1em; margin-left: auto; margin-right: auto; }
+        img { display:block; margin: auto; }
     </style>
 </head>
 <body>
 <img style="float: right" src="images/logo-big.png" alt="DiBL logo"
      title="3 tiles each with a single stitch. Thick coloured lines for the pair diagram, thin black lines for a thread diagram"/>
 <h1>d-bl : Diagrams for Bobbin Lace</h1>
-<p><em>Overview of available applications.</em></p>
-<ul>
-    <li><a href="InkScape">InkScape plugins</a></li>
-    <li><a href="polar">polar grids</a></li>
-    <li><a href="diagram">diagram generators</a></li>
-</ul>
-<hr/>
-<h2><a name="InkScape">InkScape plugins</a></h2>
-<p>
-    <a href="https://inkscape.org">InkScape</a> is a general purpose vector drawing program.
-    A few extensions for bobbin lace are bundled.
+<p><em>
+    Two groups of freely available generators:
+    <a href="diagrams">diagrams</a> and <a href="polar">grids</a>.
+</em></p><p>
+    Each application in a group has its own use case.
+    The InkScape plugins in both groups are <a href="https://github.com/jo-pol/DiBL/wiki/Install-Inkscape-Extensions"
+    >bundled</a> together in a single installation package.
+    InkScape is a powerful general purpose drawing tool,
+    like these bobbin lace tools it is free of charge and
+    free to change or improve at your own discretion.
 </p>
-<ul>
-    <li>
-        generate <a href="http://web.uvic.ca/~vmi/laceTools/Inkscape1/inkscape1.html" target="_blank">regular</a>
-        grids
-    </li>
-    <li>
-        generate <a class="internal present" href="/jo-pol/DiBL/wiki/Polar-Grids">polar</a> grids
-    </li>
-    <li>
-        change <a class="internal present" href="/jo-pol/DiBL/wiki/Thread-style">color or width</a>
-        of individual threads in any drawing.
-    </li>
-    <li>
-        generate <a href="http://web.uvic.ca/~vmi/laceTools/Inkscape1/inkscape1.html" target="_blank">pair diagrams</a>
-    </li>
-</ul>
-<table>
-    <tr><td><h2><a name="polar">Polar grids</a></h2></td>
-    </tr>
-    <tr>
-        <td colspan="2"><em>Distorted effects of traditional graph paper.</em></td>
-        <td><img src="images/distorted.png"></td>
-    </tr>
-    <tr>
-        <td colspan="2"><em>Propportional effects of provided applications.</em></td>
-        <td><img src="images/proportional.png"></td>
-    </tr>
-    <tr>
-        <td><img src="images/decorated.png"></td>
-        <td><a href="http://jo-pol.github.io/DiBL/polar-grids/">interactive web page</a></td>
-        <td>More patterns that scale better.
-            You can design your own patterns, though the definitions might be a bit cryptic.
-        </td>
-    </tr>
-    <tr>
-        <td><img src="images/nested.png"></td>
-        <td><a href="https://github.com/jo-pol/DiBL/wiki/Polar-Grids">InkScape plugin</a></td>
-        <td>Allows matching nested grids.
-            Less patterns but you can add your own marks for one pie
-            and have it automagically repeated to a complete circle.
-        </td>
-    </tr>
+<table style="clear: both">
     <tr><td><h2><a name="diagrams">Diagram generators</a></h2></td>
         <td colspan="2">
             <p><em>
-                screenshot snippets of flanders thread diagrams with only half stitches
+                The screenshot snippets show diagrams of Flanders lace,
+                which differs from a Torchon rose ground by using four pairs pin versus two pairs per pin.
+                As far as available a thread diagram with only half stitches is shown,
+                otherwise a pair diagram.
             </em></p>
         </td>
     </tr>
@@ -76,10 +38,9 @@
         <td><img src="images/force-graph.png"></td>
         <td><a href="https://d-bl.github.io/TesseLaceD/">interactive web page</a></td>
         <td>Matching pair and thread diagrams in a single view, any stitch.
-            So far it provides the 2012 patterns with perpendicular lines of
-            <a href="http://tesselace.com/research/bridges2012/">TesseLace</a>.
+            So far it provides only patterns with perpendicular lines.
             Apply thread styles on the browser canvas.
-            Not resizable to a pricking as the pins choose their own position what might be off a traditional grid,
+            As the pins choose their own position they might be nudged off a traditional grid,
             rather use the diagrams as cheat-sheets alias <a href="http://www.mail-archive.com/lace%40arachne.com/msg43449.html"
             >voodoo boards</a>.
         </td>
@@ -87,21 +48,31 @@
     <tr>
         <td><img src="images/templates.png"></td>
         <td><a href="http://jo-pol.github.io/DiBL/grounds/index.html"
-        >interactive web page</a> + <a href="https://github.com/jo-pol/DiBL/wiki/Thread-style"
+        >interactive web page</a> +&nbsp;optionally an <a href="https://github.com/jo-pol/DiBL/wiki/Thread-style"
         >InkScape plugin</a></td>
         <td>Matching pair and thread diagrams accessible with a few clicks.
-            <a href="http://tesselace.com/">TesseLace</a>
-            patterns with perpendicular lines don't have a thread diagram.
-            Limited sets of stitches, some grounds more than others.
+            No thread diagrams for patterns with perpendicular lines.
+            Only four stitches for the other group of diagrams.
             Generated diagrams can be downloaded with a right click.
             Apply thread styles with an InkScape plugin or pencil and tracing paper.
+        </td>
+    </tr>
+    <tr>
+        <td><img src="images/rose.png"></td>
+        <td><a href="http://web.uvic.ca/~vmi/laceTools/Inkscape1/inkscape1.html"
+        >InkScape plugin</a></td>
+        <td>Pair diagrams alias prickings. So far only patterns with perpendicular lines.
+            The above generators create color coded pair diagrams and matching thread diagrams
+            of the same <a href="http://tesselace.com/">TesseLace</a> patterns.
+            The numbering is different in all three cases.
         </td>
     </tr>
     <tr>
         <td><img src="images/bobbinwork.png"></td>
         <td><a href="https://github.com/d-bl/bobbinwork/wiki">desktop application</a></td>
         <td>Pair and thread diagrams for half a dozen of traditional grounds and half a dozen of braids.
-            An export of step by step images can be imported by third party tools to create an animated image for a pattern.
+            An export of step by step images can be imported by third party tools
+            to create an animated image for a pattern.
             Fixed patch sizes that are relatively small.
             Replacing stitches involves the following steps for each stitch:
             look up the desired stitch, copy it,
@@ -113,6 +84,40 @@
         <td><a href="http://jo-pol.github.io/DiBL/flanders/">interactive web page</a></td>
         <td>Flanders only. No Pair diagrams.
             Apply thread styles with tracing paper and pencil.
+        </td>
+    </tr>
+    <tr><td><h2><a name="polar">Polar grids</a></h2></td>
+    </tr>
+    <tr>
+        <td><img src="images/decorated.png"></td>
+        <td><a href="http://jo-pol.github.io/DiBL/polar-grids/">interactive web page</a></td>
+        <td>More patterns that scale better.
+            You can design your own patterns, though the definitions might be a bit cryptic.
+        </td>
+    </tr>
+    <tr>
+        <td><a href="images/nested.svg"><img src="images/nested.png"></a></td>
+        <td><a href="https://github.com/jo-pol/DiBL/wiki/Polar-Grids">InkScape plugin</a></td>
+        <td>Allows matching nested grids.
+            Less patterns but you can add your own marks for one pie
+            and have it automagically repeated to a complete circle.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"><em>Distorted effects of traditional graph paper:</em></td>
+        <td><img src="images/distorted.png"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><em>Propportional effects of applications above:</em></td>
+        <td><img src="images/proportional.png"></td>
+    </tr>
+     <tr><td><h2><a name="regular">Regular grids</a></h2></td>
+    </tr>
+    <tr>
+        <td><img src="images/regular.png"></td>
+        <td><a href="http://web.uvic.ca/~vmi/laceTools/Inkscape1/inkscape1.html">InkScape plugin</a></td>
+        <td>The built-in grid feature of InkScape only provides snapping points.
+            This plugin generates printable dots with configurable size, distance and angle.
         </td>
     </tr>
 </table>
