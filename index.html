@@ -7,27 +7,47 @@
         body { max-width: 45em;  padding: 1em; margin-left: auto; margin-right: auto; }
         img { display:block; margin: auto; }
         p { margin: 0.5em; }
+        .hide { display: none; }
+        tr .show { display: table-row; }
+        p .show { display: block; }
     </style>
+    <script>
+        function toggle(el) {
+            var hidden = document.getElementsByClassName("hide");
+            if (hidden.length == 1 ) {
+                location.reload()
+                return
+            }
+            var i;
+            for (i = hidden.length - 1; i>=0; i--) {
+                hidden[i].className = hidden[i].className.replace("hide", "show")
+            }
+            el.className = el.className.replace("show", "hide")
+        }
+    </script>
 </head>
 <body>
 <img style="float: right" src="images/logo-big.png" alt="DiBL logo"
      title="Three tiles each with a single stitch.&#013;Thick flat lines for the color coded pair diagram,&#013;thin black lines for the thread diagram."/>
 <h1>D<sub>i</sub>BL : Diagrams for Bobbin Lace</h1>
 <p><em>
-    Two groups of freely available generators:
-    <a href="#diagrams">diagrams</a> and <a href="#polar">grids</a>.
+    Freely available generators.
 </em></p><p>
-    Each application in a group has its own use case.
-    The InkScape plugins in both groups are <a href="https://github.com/d-bl/inkscape-bobbinlace#readme"
+    The old generators may still have a use case but they are no longer maintained.
+</p><p>
+    The InkScape plugins are <a href="https://github.com/d-bl/inkscape-bobbinlace/wiki"
     >bundled</a> together in a single installation package.
-    InkScape is a powerful general purpose drawing tool,
+    InkScape is a powerful general purpose vector based drawing tool,
     like these bobbin lace tools it is free of charge and
     free to change or improve at your own discretion.
 </p>
 <table style="clear: both">
-    <tr><td><h2><a name="diagrams">Diagram generators</a></h2></td>
+    <tr>
+        <td>
+            <h2><a name="diagrams">Diagrams</a></h2>
+        </td>
         <td colspan="2">
-            <p><em>
+            <p class="hide"><em>
                 The screenshot snippets show diagrams of Flanders lace,
                 which differs from a Torchon rose ground by using four pairs per pin versus two pairs per pin.
                 As far as available a thread diagram with only half stitches is shown,
@@ -38,16 +58,23 @@
     <tr>
         <td><img src="images/force-graph.png"></td>
         <td><a href="https://d-bl.github.io/GroundForge/">interactive web page</a>
-            <br/><img src="images/new.png" title="development started October 2015 and is still improving">
         </td>
         <td><p>GroundForge</p>
             <p>A toolbox to design bobbin lace grounds or braids.</p>
             <p>Matching color coded pair diagrams,
-                thread diagrams and patterns in a single view,
+                thread diagrams and pricking prototypes,
                 supports any stitch.</p>
         </td>
     </tr>
     <tr>
+        <td>
+            <p><a href="#" onclick="toggle(this);return false" class="show">Show predecessors</a></p>
+            <p><a href="#" onclick="toggle(this);return false" class="hide">Hide predecessors</a></p>
+        </td>
+        <td colspan="2">
+        </td>
+    </tr>
+    <tr class="hide">
         <td><img src="images/templates.png"></td>
         <td><a href="http://jo-pol.github.io/DiBL/grounds/index.html"
         >interactive web page</a> +&nbsp;optionally an <a href="https://github.com/jo-pol/DiBL/wiki/Thread-style"
@@ -55,14 +82,14 @@
         <td><p>Limited set of stitches. Diamond tiled patterns are not yet integrated in GroundForge.
         </p></td>
     </tr>
-    <tr>
+    <tr class="hide">
         <td><img src="images/rose.png"></td>
         <td><a href="http://tesselace.com/tools/inkscape-extension/"
         >InkScape plugin</a></td>
         <td><p>Pair diagrams alias prickings. GroundForge has more patterns.
         </p></td>
     </tr>
-    <tr>
+    <tr class="hide">
         <td><img src="images/bobbinwork.png"></td>
         <td><a href="https://github.com/d-bl/bobbinwork/wiki">desktop application</a></td>
         <td><p>Only about a dozen traditional grounds and braids.
@@ -70,7 +97,7 @@
             to create an animated image.
         </p></td>
     </tr>
-    <tr>
+    <tr class="hide">
         <td><img src="images/just-flanders.png"></td>
         <td><a href="http://jo-pol.github.io/DiBL/flanders/">interactive web page</a></td>
         <td><p>Flanders only. No Pair diagrams. Works even with old browsers.
@@ -87,7 +114,7 @@
     </tr>
     <tr>
         <td><a href="images/nested.svg"><img src="images/nested.png"></a></td>
-        <td><a href="https://github.com/jo-pol/DiBL/wiki/Polar-Grids">InkScape plugin</a></td>
+        <td><a href="https://github.com/d-bl/inkscape-bobbinlace/wiki">InkScape plugin</a></td>
         <td><p>Allows matching nested grids.
             Less patterns but you can add your own marks for one pie
             and have it automagically repeated to a complete circle.
@@ -105,7 +132,7 @@
     </tr>
     <tr>
         <td><img src="images/regular.png"></td>
-        <td><a href="http://web.uvic.ca/~vmi/laceTools/Inkscape1/inkscape1.html">InkScape plugin</a></td>
+        <td><a href="https://github.com/d-bl/inkscape-bobbinlace/wiki">InkScape plugin</a></td>
         <td><p>The built-in grid feature of InkScape only provides snapping points.
             This plugin generates printable dots with configurable size, distance and angle.
         </p></td>
