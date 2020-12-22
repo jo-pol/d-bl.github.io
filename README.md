@@ -20,8 +20,6 @@ In thread diagrams interruptions of the lines emulate the over under effect of t
 
 A pricking is usually just black and white and applies a third abstraction level. At least it contains dots where the pins should go through the cardboard into the (very stiff) pillow to support the stitches and keep the lace in shape while creating it. Annotations between the dots should keep the lace maker on track.
 
-See also this [overview of diagrams](https://d-bl.github.io/GroundForge/help/#approach), with images but aiming at users (read: lace designers) of GroundForge rather than developers.
-
 ## Thread styles
 
 The thread style plugin is a supplement for the thread diagrams of the [predecessor](http://jo-pol.github.io/DiBL/grounds/) of GroundForge. The predecessor generates diagrams from templates, only one type of diagram at a time, the diagrams are not topological neutral and only a limited set of stitches is supported. GroundForge assigns line numbers to classes of line segments to paint the threads and no longer needs the plugin.
