@@ -1,9 +1,9 @@
-[Use cases](/#use-cases)
-[Site map](/#site-map)
-[History](/#history-of-d-bl-and-groundforge)
-[Contact](/#contact)
-[FAQ](/#faq)
-[Glossary](/#glossary)
+* [Use cases](/#use-cases)
+* [Site map](/#site-map)
+* [History](/#history-of-d-bl-and-groundforge)
+* [Contact](/#contact)
+* [FAQ](/#faq)
+* [Glossary](/#glossary)
 
 ### Contribute
 
