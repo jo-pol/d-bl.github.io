@@ -47,7 +47,7 @@ Site map
               `checker` can also be `brick` (note that patterns may have other tilings)  
 
 ---
-            
+[same image with links](images/site-map.svg)
 ![](images/site-map.svg)
 
 ---
