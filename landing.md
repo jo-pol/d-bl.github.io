@@ -45,9 +45,12 @@ Site map
               _to be explained somewhere else_:  
               value for `patch` is `tile` value of other urls  
               `checker` can also be `brick` (note that patterns may have other tilings)  
-    
-![](/GroundForge-help/docs/images/site-map.svg)
 
+---
+            
+![](images/site-map.svg)
+
+---
 
 Contact
 -------
