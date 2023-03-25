@@ -4,7 +4,6 @@ title: a suite of projects and applications
 ---
 
 D-BL offers a roof to a suite of projects and applications related to bobbin lace.
-Currently, the main focus is on continuous bobbin lace though decorated braids can also benefit.
 The applications are available with an open source license and the documentation has a creative-commons license. 
 
 Use cases
@@ -98,7 +97,7 @@ Timeline
   Both reduced the burden of complex GUIs with file IO and parsing complex data structures.
 * **2017**:
   * Discovery of Jo Edkins' [index](http://www.theedkins.co.uk/jo/lace/whiting/index.htm)
-    on an out-copyright book, the [sampler](https://www.metmuseum.org/blogs/collection-insights/2018/gertrude-whiting-bobbin-lace-sampler)
+    on an out-of-copyright book, the [sampler](https://www.metmuseum.org/blogs/collection-insights/2018/gertrude-whiting-bobbin-lace-sampler)
     by Gertrude Whiting.
   * Request for a guinea pig to review GroundForge.
   * Discovery of the Droste effect: using thread diagrams as pair diagrams.
