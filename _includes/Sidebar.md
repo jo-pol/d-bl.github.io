@@ -2,10 +2,10 @@
 
 * [Use cases](/#use-cases)
 * [Site map](/#site-map)
-* [History](/#history-of-d-bl-and-groundforge)
 * [Contact](/#contact)
 * [FAQ](/#faq)
 * [Glossary](/#glossary)
+* [History](/#history-of-d-bl-and-groundforge)
 
 ### Contribute
 
