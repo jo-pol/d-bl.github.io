@@ -105,13 +105,13 @@ See also [icons](GroundForge/icons)
 
 > Hosting service for software development and version control. Free for open source projects.
 > 
-> <ims src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="32px">
+> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="32px"/>
 
 **GroundForge**
 
 > A suite of tools for continuous bobbin lace. Focussing on transforming pair diagrams to thread diagrams.
 > 
-> ![](/GroundForge/images/logo-small.png)
+> ![](/GroundForge/images/logo-medium.png)
 
 **Stitch**
 
