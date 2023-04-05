@@ -145,6 +145,10 @@ Timeline
     by Gertrude Whiting.
   * Request for a guinea pig to review GroundForge.
   * Discovery of the Droste effect: using thread diagrams as pair diagrams.
+* **January 2018**
+  * More tile configurations than bricks and bathroom.
+* **Mid 2019**:
+  * Extended the cheat sheet for longer lines between stitches.
 * **August 2021**:
   * tutorials for a workshop at IOLI UnConn 2.0 hosted by _the lace museum_
   * birth of the nets page
