@@ -16,7 +16,6 @@ Use cases
 
 More:
 [Contact](/#contact) -
-[FAQ](/#faq) -
 [Glossary](/#glossary) -
 [History](/#history-of-d-bl-and-groundforge)
 
@@ -24,9 +23,9 @@ Browse
 ------
 
 * Galleries with predefined patterns that are linked to GroundForge  (where you can play with stitches and thread colors)
-    * [tesselace](/tesselace-to-gf/) (pair diagrams without stitches)
-    * [sampler](/gw-lace-to-gf/) of Gertrude Whiting (traditional grounds, not all patterns can be used)
-    * [MAE-gf](/MAE-gf/) All kinds of patterns, traditional and innovative
+    * [tesselace](/tesselace-to-gf/) (pair diagrams without stitches, includes picking variations of traditional grounds)
+    * [sampler](/gw-lace-to-gf/) of Gertrude Whiting (traditional grounds, not all patterns are supported by GroundForge)
+    * [MAE-gf](/MAE-gf/) All kinds of patterns, traditional, variations and innovative
     * [nets](/GroundForge/nets) page with [samples](/MAE-gf/docs/stitches) (a few basic pair diagrams with mirrored and/or rotated versions of a single stitch)
 * Traditional grounds in the galleries above
     * rose/virgin ground on [tesselace](/tesselace-to-gf/#rose-family),
@@ -40,12 +39,13 @@ Design / Explore
 
 DIY new/customized patterns
 
-* links from the galleries above currently lead to the [all-in-one](/GroundForge/tiles) page, sometimes via the [print/pdf](/GroundForge/print) friendly page
+* Links from the galleries above lead to the following pages. These pages are currently under construction.
+  The links still go to the [all-in-one](/GroundForge/tiles) page, sometimes via the [print/pdf](/GroundForge/print) friendly page
   * play with [stitches and threads](/GroundForge/stitches?whiting=C17_P132&patchWidth=12&patchHeight=12&c1=ctctttt&a1=ctctttt&d2=ctctttt&c3=ctctttt&a3=ctctttt&b4=ctctttt&patch=L-O-,---5,H-E-,-5--;brick&tile=L-O-,---5,H-E-,-5--&tileStitch=ctctttt&shiftColsSW=0&shiftRowsSW=4&shiftColsSE=4&shiftRowsSE=4)
     (_under construction, diagrams section of the all-in-one page_)
   * modify the [pair diagrams](/GroundForge/pattern?whiting=C17_P132&patchWidth=12&patchHeight=12&c1=ctctttt&a1=ctctttt&d2=ctctttt&c3=ctctttt&a3=ctctttt&b4=ctctttt&patch=L-O-,---5,H-E-,-5--;brick&tile=L-O-,---5,H-E-,-5--&tileStitch=ctctttt&shiftColsSW=0&shiftRowsSW=4&shiftColsSE=4&shiftRowsSE=4)
     (_under construction, pattern section of the all-in-one page_)
-  * use thread diagrams as pair diagrams (Droste effect, on the all-in-one page)
+  * use thread diagrams as pair diagrams (_under construction_): [Droste effect](/GroundForge/pattern?whiting=C17_P132&patchWidth=12&patchHeight=12&c1=ctctttt&a1=ctctttt&d2=ctctttt&c3=ctctttt&a3=ctctttt&b4=ctctttt&patch=L-O-,---5,H-E-,-5--;brick&tile=L-O-,---5,H-E-,-5--&tileStitch=ctctttt&shiftColsSW=0&shiftRowsSW=4&shiftColsSE=4&shiftRowsSE=4)
 * create patterns with
   * [mirrored and rotated](/GroundForge/symmetry) repeats (no transformation to pair diagrams)
   * Free [tile](/GroundForge/pattern?whiting=C17_P132&patchWidth=12&patchHeight=12&c1=ctctttt&a1=ctctttt&d2=ctctttt&c3=ctctttt&a3=ctctttt&b4=ctctttt&patch=L-O-,---5,H-E-,-5--;brick&tile=L-O-,---5,H-E-,-5--&tileStitch=ctctttt&shiftColsSW=0&shiftRowsSW=4&shiftColsSE=4&shiftRowsSE=4) boundaries
@@ -88,28 +88,37 @@ Contact
 * [Discord](https://discord.com/channels/1074087445169184940) channel: chat in text, voice and/or video (visible only with an account)
 * [Instagram](https://www.instagram.com/explore/tags/groundforge/): show off patterns and samples (partially visible without account, please tag your posts with `#groundforge`; mixed with some black smithing)
 
-FAQ
-===
-
-* ...
-
 Glossary
 ========
 
 See also [icons](GroundForge/icons)
 
-* **D-BL** - **D**iagrams for **B**obbin **L**ace - an umbrella for a suite of projects/applications related to bobbin lace.
-* **force graph algorithms** - evenly distribute nodes and links, and organize items so that links are of a similar length. These algorithms balance attraction and repulsive forces. 
-* **GitHub** - hosting service for software development and version control. Free for open source projects.
-* **GroundForge** - a suite of tools for continuous bobbin lace. Focussing on transforming pair diagrams to thread diagrams.
-* **stitch** - interaction between two pairs, for the application a stitch may consist of stitch-pin-stitch
+**D-BL**
+
+> **D**iagrams for **B**obbin **L**ace - an umbrella for a suite of projects/applications related to bobbin lace.
+
+**force graphs** 
+
+> an algorithm evenly distributes nodes and links, and organize items so that links are of a similar length. These algorithms balance attraction and repulsive forces. 
+
+**GitHub**
+
+> hosting service for software development and version control. Free for open source projects.
+
+**GroundForge**
+
+> a suite of tools for continuous bobbin lace. Focussing on transforming pair diagrams to thread diagrams.
+
+**stitch**
+
+> interaction between two pairs, for the application a stitch may consist of stitch-pin-stitch
 
 
 History of D-BL and GroundForge
 ===============================
 
-D-BL started as DiBL under google-code.
-When a new provider was needed an account by that name was already taken and the _i_ replaced by a dash.
+D-BL started as DiBL under google-code. By the time that google-code discontinued,
+an account by the name dibl was already taken and the _i_ replaced by a dash.
 
 The polar grids were exercises to master new technology.
 

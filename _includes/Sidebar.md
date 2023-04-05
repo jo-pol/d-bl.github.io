@@ -3,7 +3,6 @@
 * [Use cases](/#use-cases)
 * [Site map](/#site-map)
 * [Contact](/#contact)
-* [FAQ](/#faq)
 * [Glossary](/#glossary)
 * [History](/#history-of-d-bl-and-groundforge)
 
