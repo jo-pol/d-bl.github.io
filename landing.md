@@ -12,7 +12,7 @@ Use cases
 * [Browse](#browse) lace grounds (both classic and experimental)
 * [Design](#design---explore) new lace grounds (or modify a found ground) 
 * [Explore](#design---explore) various stitches and follow threads in the grounds above
-* [Prickings](prickings) for lace grounds
+* [Prickings](#prickings) for lace grounds
 
 More:
 [Contact](/#contact) -
@@ -97,21 +97,36 @@ See also [icons](GroundForge/icons)
 
 > **D**iagrams for **B**obbin **L**ace - an umbrella for a suite of projects/applications related to bobbin lace.
 
-**force graphs** 
+**Force graphs** 
 
-> an algorithm evenly distributes nodes and links, and organize items so that links are of a similar length. These algorithms balance attraction and repulsive forces. 
+> An algorithm evenly distributes nodes and links, and organize items so that links are of a similar length. These algorithms balance attraction and repulsive forces. 
 
 **GitHub**
 
-> hosting service for software development and version control. Free for open source projects.
+> Hosting service for software development and version control. Free for open source projects.
+> 
+> <ims src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="32px">
 
 **GroundForge**
 
-> a suite of tools for continuous bobbin lace. Focussing on transforming pair diagrams to thread diagrams.
+> A suite of tools for continuous bobbin lace. Focussing on transforming pair diagrams to thread diagrams.
+> 
+> ![](/GroundForge/images/logo-small.png)
 
-**stitch**
+**Stitch**
 
-> interaction between two pairs, for the application a stitch may consist of stitch-pin-stitch
+> Interaction between two pairs, for the application a stitch may consist of stitch-pin-stitch
+
+**Licenses**
+
+> You have the rights to copy, modify and republish, with some restrictions.
+> So far we have [cc-by v4](http://creativecommons.org/licenses/by/4.0/) for the documentation
+> and either [GPL v3](https://github.com/d-bl/GroundForge/blob/master/LICENSE)
+> or [Simplified BSD](https://choosealicense.com/licenses/bsd-2-clause/)
+> for the code under the hood.
+> 
+> ![](/tesselace-to-gf/assets/images/CC-BY-80x15.png)
+> ![](https://www.gnu.org/graphics/gplv3-88x31.png)
 
 
 History of D-BL and GroundForge
