@@ -111,7 +111,7 @@ See also [icons](GroundForge/icons)
 
 > A suite of tools for continuous bobbin lace. Focussing on transforming pair diagrams to thread diagrams.
 > 
-> ![](/GroundForge/images/logo-medium.png)
+> <img src="/GroundForge/images/logo-medium.png" width="64px"/>
 
 **Stitch**
 
