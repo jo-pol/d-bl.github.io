@@ -141,7 +141,7 @@ Timeline
   with a few more traditional grounds, each predefined with a tedious process and some custom XML.
   This had a textual tree view of the diagrams, drilling down from spider to stitches to cross/twist.
 * **2013**: 
-  * Discovery of PhD research in progress that lead to [tesselace](https://web.archive.org/web/20221127125331/https://tesselace.com/)
+  * Discovery of PhD research in progress that lead to [tesselace](https://tesselacedotcom.wordpress.com/)
   * Redesign using SVG, a combination of a [web application](/DiBL/grounds/index.html) and inkscape plugins  
     this allowed again more patterns but still had a limited choice of stitches 
 * **fall 2015**:  
